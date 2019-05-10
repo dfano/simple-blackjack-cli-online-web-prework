@@ -54,11 +54,11 @@ def runner
   #says hello
   welcome()
   #deals first hand
-  starting_hand = initial_round()
-
-  hit_result = hit?(starting_hand)
-
-  display_card_total(hit_result)
+  hand = initial_round()
+  until hand > 21 do
+    hand_total = hit?(hand)
+    display_card_total(hand_total)
+  end
 
 end_game()
 
