@@ -50,12 +50,13 @@ end
 # get every test to pass before coding runner below #
 #####################################################
 
-# def runner
-#   welcome
-#   initial_round
-#   current_total = hit?
-#   until current_total > 21 do
-#     hit?
-#   end
-#   end_game
-# end
+def runner
+  welcome()
+  starting_hand = initial_round()
+  hit?(starting_hand)
+
+  # until current_total > 21 do
+  #   hit?
+  # end
+  # end_game
+end
