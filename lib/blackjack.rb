@@ -29,6 +29,7 @@ def initial_round
 end
 
 display_card_total(5)
+initial_round
 
 def hit?
   # code hit? here
