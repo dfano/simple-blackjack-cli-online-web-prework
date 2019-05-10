@@ -30,19 +30,22 @@ end
 
 
 
-def hit?(number)
+def hit?(current_card_total)
   prompt_user
   input = get_user_input
+  current_total = current_card_total
   if input = 'h'
-    newtotal = number + deal_card
+    newtotal = current_total + deal_card
     return newtotal
   elsif input = 's'
-    number
+
   else
     invalid_command
   end
 
 end
+
+hit?(10)
 
 def invalid_command
   puts "Please enter a valid command"
