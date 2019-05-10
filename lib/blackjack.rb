@@ -33,6 +33,7 @@ end
 def hit?(number)
   prompt_user
   input = get_user_input
+  number = newtotal
   if input = 'h'
     newtotal = number + deal_card
   elsif input = 's'
@@ -40,6 +41,7 @@ def hit?(number)
   else
     invalid_command
   end
+
 
 
 end
