@@ -58,6 +58,6 @@ def runner
     hit?
   end
 end_game
-    
+
   end
 end
