@@ -57,7 +57,5 @@ def runner
   until current_total > 21 do
     hit?
   end
-end_game
-
-  end
+  end_game
 end
