@@ -51,9 +51,17 @@ end
 #####################################################
 
 def runner
+  #says hello
   welcome()
+  #deals first hand
   starting_hand = initial_round()
-  hit?(starting_hand)
+
+  hit_result = hit?(starting_hand)
+
+  display_card_total(hit_result)
+
+end_game()
+
 
   # until current_total > 21 do
   #   hit?
