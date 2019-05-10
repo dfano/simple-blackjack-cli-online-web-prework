@@ -33,6 +33,13 @@ end
 def hit?(number)
   prompt_user
   input = get_user_input
+  if input = 'h'
+    #action
+  elsif input = 's'
+    #action
+  else
+    invalid_command
+  end 
 
 
 end
