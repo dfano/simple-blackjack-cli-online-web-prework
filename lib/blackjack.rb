@@ -28,18 +28,12 @@ def initial_round
   cards
 end
 
-initial_round
+
 
 def hit?(number)
   prompt_user
   get_user_input
-  if input == 's'
-    #action
-  elsif input == 'h'
-    deal_card
-  else
-    invalid_command
-  end
+
 
 end
 
