@@ -42,6 +42,7 @@ def hit?(current_card_total)
   else
     invalid_command
   end
+  puts input
 end
 
 def invalid_command
