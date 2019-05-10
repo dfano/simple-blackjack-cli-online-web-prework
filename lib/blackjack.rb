@@ -30,8 +30,16 @@ end
 
 initial_round
 
-def hit?
-  # code hit? here
+def hit?(number)
+  input = get_user_input
+  if input == 's'
+    #action
+  elsif input == 'h'
+    deal_card
+  else
+    invalid_command
+  end
+    
 end
 
 def invalid_command
