@@ -31,7 +31,8 @@ end
 initial_round
 
 def hit?(number)
-  input = get_user_input
+  prompt_user
+  get_user_input
   if input == 's'
     #action
   elsif input == 'h'
