@@ -7,7 +7,7 @@ def deal_card
 end
 
 def display_card_total(card_total)
-  puts "Your cards add up to #{card_total}"
+  print "Your cards add up to #{card_total}"
 end
 
 def prompt_user
@@ -24,7 +24,7 @@ end
 
 def initial_round
   return cards = deal_card + deal_card
-  print display_card_total(cards)
+  display_card_total(cards)
 
 
   # total = display_card_total(deal_card + deal_card)
